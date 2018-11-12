@@ -1,204 +1,453 @@
 package p1;
-/**
-这是主类
-*/
 public class A{
-/**
-这是主函数
-*/
 	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=137;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p2;
-/**
-这是主类
-*/
-public class B{
-/**
-这是主函数
-*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=256;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p3;
-/**
-这是主类
-*/
-public class C{
-/**
-这是主函数
-*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=999;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p4;
-/**
-这是一个主类
-*/
-public class D{
-/**
-这是一个主函数
-*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=512;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p5;
-/**
-这是一个主类
-*/
-public class E{
-/**
-这是一个主函数
-*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=177;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p6;
-/**
-这是主类
-*/
-public class F{
-/**
-这是主函数
-*/
-     public static void main(String[]arg){
-/**
-%作用为取余数
-*/
-		 int n=333;
-         int a=n/100;
-         int b=n/10%10;
-         int c=n%10;
-         System.out.println(a+","+b+","+c);		 
-	 }
-}
-package p7;
-/**
-这是主类
-*/
-public class G{
-/**
-这是主函数*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-		int n=566;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p8;
-/**
-这是主类
-*/
-public class H{
-/**
-这是主函数
-*/
-	public static void main(String[]args){
-/**
-%作用为取余数
-*/
-	int n=789;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p9;
-/**这是主类*/
-public class I{
-/**这是主函数*/
-	public static void main(String[]args){
-/**%作用为取余数*/
-	int n=399;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-	}
-}
-package p10;
-/**这是主类*/
-public class J{
-/**这是主函数*/
-	public static void main(String[]args){
-		int n=588;
-		int a=n/100;
-		int b=n/10%10;
-		int c=n%10;
-		System.out.println(a+","+b+","+c);
-		}
-}
-package p11;
-/**这是主类*/
-public class Hello{
-/**这是主函数*/
-	public static void main(String[]args){
-		System.out.println("Hello");
-	}
-}
-package p12;
-/**
-这是一个主类*/
-public class K{
-/**这是主函数*/
-	public static void main(String[]args){
-		int a=20;
-		int b=30;
-		int e=a+b;
-		System.out.println(e);
-	}
-}
-package p20;
-/**这是主类*/
-public class Hello{
-/**这是主函数*/
-	public static void main(String[]args){
+		printLine();
 		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	//定义一个函数，打印30个-；
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数，打印1+1；
+	public static void a(){
+		int i=1+1;
+	}
+	System.out.println(i);
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数 计算1~100之间7的倍数的和
+	public static void a(){
+		int sum=0;
+		for(int i=1;i<=100;i++){
+			if(i%7==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于计算1~100之间7的倍数的和
+	public static void a(){
+		int sum=0;
+		for(int i=1;i<=100;i++){
+			if(i%7==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于计算1~100之间7的倍数的和
+	public static void a(){
+		int sum=0;
+		for(int i=1;i<=100;i++){
+			if(i%7==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于计算1~100之间7的倍数的和
+	public static void a(){
+		int sum=0;
+		for(int i=1;i<=100;i++){
+			if(i%7==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于计算1~100之间7的倍数的和
+	public static void a(){
+		int sum=0;
+		for(int i=1;i<=100;i++){
+			if(i%7==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于计算1~100之间偶数的和
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%2==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+package p1;
+public class A{
+    public static void main(String[]args){
+	    a();
+     }
+	 //定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0;i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+    public static void a(){
+		for(int i=1;i<=100;i++){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		a();
+	}
+	//定义一个函数用于打印所有3的倍数并且也是5的倍数的所有数
+	public static void a(){
+		for(int i=1;i<=100;i+=){
+			if(i%3==0&&i%5==0){
+				System.out.println(i);
+			}
+		}
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		printLine('+',40);
+		System.out.println("Hello World");
+		printLine('-',30);
+		System.out.println("Welcome");
+		printLine('%',15);
+		System.out.println("Happy new year");
+		printLine('!',50);
+	}
+	public static void printLine(char echo;int count){
+		for(int i=1;i<=count;i++){
+			System.out.print(echo);
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		printLine('+',40);
+		System.out.println("Hello World");
+		printLine('-',30);
+		System.out.println("Welcome");
+		printLine('%',15);
+		System.out.println("Happy new year");
+		printLine('!',50);
+	}
+	public static void printLine(char echo;int count){
+		for(int i=1;i<=count;i++){
+			System.out.print(echo);
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		printLine('+',40);
+		System.out.println("Hello World");
+		printLine('-',30);
+		System.out.println("Welcome");
+		printLine('%',15);
+		System.out.println("Happy new year");
+		printLine('!',50);
+	}
+	public static void printLine(char echo;int count){
+		for(int i=1;i<=count;i++){
+			System.out.print(echo);
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		printLine('+',40);
+		System.out.println("Hello World");
+		printLine('-',30);
+		System.out.println("Welcome");
+		printLine('%',15);
+		System.out.println("Happy new year");
+		printLine('!',50);
+	}
+	public static void printLine(char echo;int count){
+		for(int i=1;i<=count;i++){
+			System.out.print(echo);
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class A{
+	public static void main(String[]args){
+		printLine('+',40);
+		System.out.println("Hello World");
+		printLine('-',30);
+		System.out.println("Welcome");
+		printLine('%',15);
+		System.out.println("Happy new year");
+		printLine('!',50);
+	}
+	public static void printLine(char echo;int count){
+		for(int i=1;i<=count;i++){
+			System.out.print(echo);
+		}
+		System.out.println();
 	}
 }
