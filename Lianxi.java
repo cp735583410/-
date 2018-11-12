@@ -1,667 +1,699 @@
-/**
 package p1;
-//Ö÷Àà
 public class Lianxi{
-	//Ö÷º¯Êı
 	public static void main(String[]args){
-		//¼ÙÉèÈ«²¿Âò³É¹«¼¦£¬¿ÉÒÔÂò33Ö»£»
-		for(int a=0;a<=33;a++){
-			//¼ÙÉèÈ«²¿Âò³ÉÄ¸¼¦£¬¿ÉÒÔÂò50Ö»£»
-			for(int b=0;b<=50;b++){
-				//¼ÙÉèÈ«²¿Âò³ÉĞ¡¼¦£¬¿ÉÒÔÂò300Ö»£»
-				for(int c=0;c<=300;c++){
-				//±ØĞë±£Ö¤ÂòĞ¡¼¦»¨µÄÇ®ÎªÕûÊı£»
-					if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
 	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÒ»´ÎÈ«²¿ÈÃÄĞÈË°áÔËÍê¡£
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÈ«²¿ÈÃÅ®ÈËÒ»´Î°áÔËÍê
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÒ»´ÎÈÃĞ¡º¢°áÔËÍê
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
 		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		for(int n=100;n<=999;n++){
-			for(int a=n%10;a<10;a++){
-				for(int b=n/10%10;b<10;b++){
-					for(int c=n/100;b<10;b++){
-						if((a*a*a+b*b*b+c*c*c==n&&a==n%10)&&(b==n/10%10&&c==n/100)){
-							System.out.println(n);
-						}
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-    public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
+		System.out.println();
 	}
 }
 
 package p1;
 public class Lianxi{
 	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
 	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
 		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-	        //¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-//Ö÷Àà
-public class Lianxi{
-	//Ö÷º¯Êı
-	public static void main(String[]args){
-		//¼ÙÉèÖ»ĞèÒªÄĞÈË°áÔË£¬Ôò×î¶àĞèÒª9ÈË£»
-		for(int a=0;a<=9;a++){
-			//¼ÙÉèÖ»ĞèÒªÅ®ÈË°áÔË£¬Ôò×î¶àĞèÒª12ÈË£»
-			for(int b=0;b<=12;b++){
-				//¼ÙÉèÖ»ĞèÒªĞ¡º¢°áÔË£¬ÔòĞèÒª×î¶à72¸öĞ¡º¢£»
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(Stirng[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
+		System.out.prinln();
 	}
 }
 package p1;
 public class Lianxi{
 	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome"); 
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out,println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+	
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		System.out.print("-");
+	}
+	System.out.println();
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLIne();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+		
+   }
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
+		}
+		System.out.println();
+	}
+}
+package p1;
+public class Lianxi{
+	public static void main(String[]args){
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.println();
 		}
 	}
 }
 package p1;
 public class Lianxi{
 	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
+		printLine()ï¼›
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
 		}
+	    System.out.println();
 	}
 }
 package p1;
 public class Lianxi{
 	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
+	}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
 		}
+		System.out.println();
 	}
 }
 package p1;
 public class Lianxi{
 	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
+		printLine();
+		System.out.println("Hello World");
+		printLine();
+		System.out.println("Welcome");
+		printLine();
+		System.out.println("Happy new year");
+		printLine();
 	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
+	public static void printLine(){
+		for(int i=1;i<=30;i++){
+			System.out.print("-");
 		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((3*a+2*b+c/3==100&&a+b+c==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				for(int c=0;c<=72;c++){
-					if(4*a+3*b+c/2==36&&a+b+c==36&&c%2==0){
-						System.out.println(a+" "+b+" "+c);
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((3*a+2*b+c/3==100&&a+b+c==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int n=100;n<1000;n++){
-			for(int a=0;a<10;a++){
-				for(int b=0;b<10;b++){
-					for(int c=1;c<10;c++){
-						if((a*a*a+b*b*b+c*c*c==n&&a==n%10)&&(b==n/10%10&&c==n/100)){
-							System.out.println(n);
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		int sum=0;
-		for(int i=1;i<=100;i++){
-			sum+=i;
-		}
-		System.out.println(sum);
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int i=1;i<=100;i++){
-			if(i%7!=0&&i%10!=7&&i/10%7!=7){
-				System.out.println(i);
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				int c=36-a-b;
-				if(a+b+c==36&&4*a+3*b+c/2==36&&c%2==0){
-					System.out.println(a+" "+b+" "+c);
-				}	
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				int c=36-a-b;
-				if(a+b+c==36&&4*a+3*b+c/2==36&&c%2==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				int c=36-a-b;
-				if(a+b+c==36&&4*a+3*b+c/2==36&&c%2==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3==100)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-    
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if((a+b+c==100&&3*a+2*b+c/3)&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}*/
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=33;a++){
-			for(int b=0;b<=50;b++){
-				int c=100-a-b;
-				if(a+b+c==100&&3*a+2*b+c/3==100&&c%3==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
-	}
-}
-package p1;
-public class Lianxi{
-	public static void main(String[]args){
-		for(int a=0;a<=9;a++){
-			for(int b=0;b<=12;b++){
-				int c=36-a-b;
-				if(a+b+c==36&&4*a+3*b+c/2==36&&c%2==0){
-					System.out.println(a+" "+b+" "+c);
-				}
-			}
-		}
+		System.out.println();
 	}
 }
