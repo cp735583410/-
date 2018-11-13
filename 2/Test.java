@@ -1,17 +1,13 @@
 package p1;
-//è¿™æ˜¯ä¸»ç±»
 public class Test{
-//è¿™æ˜¯ä¸»å‡½æ•°
-    public static void main(String[]args){
-//whileè¡¨ç¤ºå¾ªç¯ æ‹¬å·å†…ä¸ºå¾ªç¯æ¡ä»¶
-		int i=1;
-		int a=0;
-		do{
-			a+=i;
-			i++;
-		}
-		while(i<=100);
-		System.out.println(a);
+	public static void main(String[]args){
+		a(10);
 	}
-	
+	//Ğ´Ò»¸öº¯Êı¶¨ÒåÒ»¸öÕûĞÍ²ÎÊın,´Ëº¯Êı¹¦ÄÜÓÃÓÚ´òÓ¡n¸öHello World
+	public static void a(int n){
+		for(int i=0;i<n;i++){
+			System.out.print("Hello Wrold");
+		}
+		System.out.println();
+	}
 }

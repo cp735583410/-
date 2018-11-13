@@ -1,15 +1,15 @@
 package p1;
-//这是主类
 public class TestB{
-//这是主函数
 	public static void main(String[]args){
-		int i=1;
-		int a=1;
-//do while 先执行循环体，再判断条件。
-		do{
-			a*=i;
-			i++;
-		}while(i<=10);
-		System.out.println(a);
+		a(100);
+	}
+	public static void a(int n){
+		int sum=0;
+		for(int i=1;i<=n;i++){
+			if(i%2==0){
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
 	}
 }

@@ -1,17 +1,14 @@
 package p1;
-//è¿™æ˜¯ä¸»ç±»
 public class TestA{
-//è¿™æ˜¯ä¸»å‡½æ•°
 	public static void main(String[]args){
-		int i=1;
-		int a=0;
-//do while å…ˆæ‰§è¡Œå¾ªç¯ä½“ï¼Œå†åˆ¤æ–­æ¡ä»¶
-		do{
-			if(i%2!=0){
-				a+=i;
-			}
-			i++;
-		}while(i<=100);
-		System.out.println(a);
+		a(100);
+	}
+	//Ğ´Ò»¸öº¯Êı¶¨ÒåÒ»¸öÕûĞÍ²ÎÊın£¬´Ëº¯Êı¹¦ÄÜÓÃÓÚ¼ÆËã1~nÖ®¼äµÄËùÓĞºÍ
+	public static void a(int n){
+		int sum=0;
+		for(int i=1;i<=n;i++){
+			sum+=i;
+		}
+		System.out.println(sum);
 	}
 }

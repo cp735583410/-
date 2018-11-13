@@ -1,18 +1,11 @@
 package p1;
-//è¿™æ˜¯ä¸»ç±»
 public class TestD{
-//è¿™æ˜¯ä¸»å‡½æ•°
 	public static void main(String[]args){
-//do while å…ˆæ‰§è¡Œå¾ªçŽ¯ä½“ï¼Œå†åˆ¤æ–­æ¡ä»¶
-		int i=1;
-		int a=0;
-		//do while å…ˆæ‰§è¡Œä»£ç å—ï¼Œå†åˆ¤æ–­æ¡ä»¶
-		do{
-			if(i%3==0&&i%5!=0){
-				a+=i;
-			}
-			i++;
-		}while(i>=1&&i<=100);
-		System.out.println(a);
+		a(3,4);
+	}
+	//Ð´Ò»¸öº¯Êý¶¨ÒåÁ½¸öÕûÐÍ²ÎÊý aÓëb£¬´Ëº¯Êý¹¦ÄÜÓÃÓÚ¼ÆËãaÓëbµÄºÍ
+	public static void a(int a,int b){
+		int c=a+b;
+		System.out.println(c);
 	}
 }
